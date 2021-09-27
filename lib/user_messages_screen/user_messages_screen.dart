@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'components/message_player_widget.dart';
+import '../ui_components/message_player_widget.dart';
 
 class UserMessagesScreen extends StatefulWidget {
   const UserMessagesScreen({Key? key}) : super(key: key);
@@ -16,8 +16,10 @@ class _UserMessagesScreenState extends State<UserMessagesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:
-            const Text('Мои записи', style: TextStyle(color: Colors.black54)),
+        title: const Text(
+          'Мои записи',
+          style: TextStyle(color: Colors.black54),
+        ),
         centerTitle: true,
       ),
       backgroundColor: Colors.grey.withOpacity(0.05),

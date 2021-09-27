@@ -16,7 +16,6 @@ class MessagePlayerWidget extends StatelessWidget {
         : queryData.size.width * 0.6;
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 5),
-      color: Colors.pink.withOpacity(0.1),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
